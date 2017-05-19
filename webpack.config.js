@@ -55,7 +55,6 @@ module.exports = {
       title: htmlTitle,
       template: "index.ejs",
       hash: true,
-      inject: 'head'
     }),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin()
